@@ -55,6 +55,20 @@ For the I Cache, this procedure is as follows:
 
 如果需要更多数据被锁，同理。
 
+## 替换策略
+在[arm官方文档的另一部分中](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.ddi0329l/Beieiiab.html)说明的替换策略原文：
+
+>Replacement strategy
+The cache controller uses a pseudo-random replacement strategy. A deterministic replacement strategy can be achieved, when you use them in combination with the lockdown registers.
+The pseudo-random replacement strategy fills empty, unlocked ways first. If a line is completely full, the victim is chosen as the next unlocked way.
+If you require a deterministic replacement strategy, the lockdown registers are used to prevent ways from being allocated. For example, if the L2 size is 256KB, and each way is 32KB, and a piece of code is required to reside in two ways of 64KB, with a deterministic replacement strategy, then ways 1-7 must be locked before the code is filled into the L2 cache. If the first 32KB of code is allocated into way 0 only, then way 0 must be locked and way 1 unlocked so that the second half of the code can be allocated in way 1.
+There are two lockdown registers, one for data and one for instructions, if so required, you can separate data and instructions into separate ways of the L2 cache.
+
+cache控制器使用伪随机的替换策略。你也可以结合它利用lockdown的寄存器来实现一个确定的替换策略。
+伪随机替换策略首先填充空的、未锁定的cache line。如果line满了，~~下一个未锁定的line将被用来替换。~~（这里不确定）
+如果你需要一个严格确定的替换策略，lockdown寄存器被用来阻止cache line被分配内容。举个例子，256KB的L2，每个line是32KB，一段程序要求填充64KB的数据（两个line），对于一个严格确定的替换策略，在内容填充到L2cache 之前，line 1-7必须被锁定。如果前32KB的内容只被填充到了line0，则line 0必须被锁，而且line1必须解锁，以便剩下的32KB填充到line1里。
+这里有两个lockdown寄存器，一个是data的一个是instructions的，你可以分别使用他们。
+
 # Dcache锁和Icache锁的区别
 两者类似。
 显著的不同是，在指令存入I cache用的是MCR指令，而不是LDR（load 到寄存器），这是由于哈佛结构决定的。在MCR的过程中，指针寄存器里的值输出指针地址总线，一个读内存的动作将执行。而cache 由于之前的flush操作，将miss这次访问，则这个line将被填充。
