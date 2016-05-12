@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=www.findspace.name&token=gI2UpY6m9y42CuOQ"

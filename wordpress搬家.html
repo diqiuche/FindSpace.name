@@ -1,0 +1,105 @@
+<h1 id="wordpress主机搬家">wordpress主机搬家</h1>
+
+<p><div class="toc"><div class="toc">
+<ul>
+<li><a href="#wordpress主机搬家">wordpress主机搬家</a><ul>
+<li><a href="#备份">备份</a><ul>
+<li><ul>
+<li><a href="#备份文件">备份文件</a></li>
+<li><a href="#备份数据库">备份数据库</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#转移">转移</a></li>
+<li><a href="#wp-supercache插件">WP-SuperCache插件</a></li>
+<li><a href="#ps">PS</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</p>
+
+<p>今天域名备案终于通过了，主机也就搬到了国内，这里简单说下搬家（域名不换，只换主机）过程和遇到的问题。</p>
+
+<hr>
+
+<h2 id="备份">备份</h2>
+
+<h4 id="备份文件">备份文件</h4>
+
+<p>首先用filezilla（一个FTP管理工具）从原主机把文件都下载下来，注意并不一定是全都下载，下载的文件夹是打开之后便是wordpress的那个文件夹，比如有些是domains/yourdomains有的是wwwroot，视情况而定。</p>
+
+<p>或者使用多备份定时备份的文件也可以。</p>
+
+<p><em>如果你使用了wp supercache插件，请参看后面的说明</em></p>
+
+
+
+<h4 id="备份数据库">备份数据库</h4>
+
+<dl>
+: 可以利用多种途径备份：
+<dd>
+<ul>
+<li>直接从网站后台通过phpmyadmin导出</li>
+<li>利用网站控制面板提供的备份功能</li>
+<li>利用多备份的自动备份功能</li>
+</ul>
+</dd>
+</dl>
+
+
+
+<h2 id="转移">转移</h2>
+
+<p>修改根目录下的wp-config.php文件把</p>
+
+
+
+<pre class="prettyprint"><code class=" hljs java">define(<span class="hljs-string">'DB_NAME'</span>, <span class="hljs-string">'yourname'</span>);
+<span class="hljs-javadoc">/** MySQL database username */</span>
+define(<span class="hljs-string">'DB_USER'</span>, <span class="hljs-string">'user'</span>);
+<span class="hljs-javadoc">/** MySQL database password */</span>
+define(<span class="hljs-string">'DB_PASSWORD'</span>, <span class="hljs-string">'passwd'</span>);</code></pre>
+
+<p>这一段代码的配置和你新主机的配置同步起来。 <br>
+把备份的文件上传到新的主机空间，注意上传内容到目标文件夹。 <br>
+从新主机的后台控制面板（不是wordpress的，现在应该打开是有数据库错误的）导入备份的sql文件。</p>
+
+
+
+<h2 id="wp-supercache插件">WP-SuperCache插件</h2>
+
+<p>如果在之前启用了这个插件，以上步骤之后主页一般会提示有错误，搬家过程需要做如下修改：</p>
+
+<ul>
+<li>修改wp-config.php</li>
+</ul>
+
+
+
+<pre class="prettyprint"><code class=" hljs lasso"><span class="hljs-class"><span class="hljs-keyword">define</span></span>( <span class="hljs-string">'WPCACHEHOME'</span>, <span class="hljs-string">'/home/example/wwwroot/wp-content/plugins/wp-super-cache/'</span> ); <span class="hljs-comment">//Added by WP-Cache Manager</span>
+<span class="hljs-class"><span class="hljs-keyword">define</span></span>(<span class="hljs-string">'WP_CACHE'</span>, <span class="hljs-literal">true</span>); <span class="hljs-comment">//Added by WP-Cache Manager</span></code></pre>
+
+<p>这两个声明应该是在最开头，删掉他们。</p>
+
+<ul>
+<li>在wordpress后台删除wordpress插件，然后重新安装一次，当然上面这两个定义会重新加进去，但是路径会改变。</li>
+</ul>
+
+
+
+<h2 id="ps">PS</h2>
+
+<p><a href="http://www.dbfen.com/index.php/users/newuser_by/4DBDAFA6" title="多备份">多备份的注册</a></p>
+
+<p>主机搬到了国内的西部数据，而且域名也注册了，正常情况下，应该再也不会宕机了～ <br>
+买主机的时候，西部数据赠送了100元的优惠券，有效期到2015.12.31，适用的机型是：</p>
+
+<blockquote>
+  <p>b032,b064,tw003,B075,java005,ghostC,M005,B075,B071</p>
+</blockquote>
+
+<p>当然肯定不允许转赠，有需要的小伙伴可以联系我，替你买。</p>

@@ -1,0 +1,1138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Point WordPress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-28 15:07+0530\n"
+"PO-Revision-Date: 2014-06-28 15:07+0530\n"
+"Last-Translator: MyThemeShop <support-team@mythemeshop.com>\n"
+"Language-Team: MyThemeShop\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:9
+msgid "Error 404 Not Found"
+msgstr ""
+
+#: 404.php:13
+msgid "Oops! We couldn't find this Page."
+msgstr ""
+
+#: 404.php:14
+msgid "Please check your URL or use the search form below."
+msgstr ""
+
+#: archive.php:8 archive.php:10 archive.php:14
+msgid " Archive"
+msgstr ""
+
+#: archive.php:12 search.php:7
+msgid "Search Results for:"
+msgstr ""
+
+#: archive.php:16
+msgid "Daily Archive:"
+msgstr ""
+
+#: archive.php:18
+msgid "Monthly Archive:"
+msgstr ""
+
+#: archive.php:20
+msgid "Yearly Archive:"
+msgstr ""
+
+#: archive.php:51 archive.php:57 index.php:37 index.php:43 search.php:37
+#: search.php:43
+msgid "Read More"
+msgstr ""
+
+#: archive.php:63 index.php:49
+msgid ""
+"No results found. We apologize for any inconvenience, please hit back on "
+"your browser or use the search form below."
+msgstr ""
+
+#: archive.php:73 index.php:59 search.php:59
+msgid "&larr; Older posts"
+msgstr ""
+
+#: archive.php:74 index.php:60 search.php:60
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments"
+msgstr ""
+
+#: comments.php:13
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:13
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:13
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:39
+msgid "Add a Comment"
+msgstr ""
+
+#: comments.php:42
+msgid "Comment:"
+msgstr ""
+
+#: comments.php:46
+msgid "Name"
+msgstr ""
+
+#: comments.php:49
+msgid "Email Address"
+msgstr ""
+
+#: comments.php:52
+msgid "Website"
+msgstr ""
+
+#: functions.php:168
+msgid "Appears on posts and pages"
+msgstr ""
+
+#: functions.php:223
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:271
+#, php-format
+msgid "<span class=\"fn\">%s</span>"
+msgstr ""
+
+#: functions.php:274
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:282
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:21
+msgid "Now Trending"
+msgstr ""
+
+#: header.php:55
+msgid "Menu"
+msgstr ""
+
+#: index.php:6
+msgid "Latest"
+msgstr ""
+
+#: page-nosidebar.php:18 page.php:15 single.php:28
+msgid "Next"
+msgstr ""
+
+#: page-nosidebar.php:18 page.php:15 single.php:28
+msgid "Previous"
+msgstr ""
+
+#: search.php:49
+msgid ""
+"No Results found. We apologize for any inconvenience, please hit back on "
+"your browser or use the search form below."
+msgstr ""
+
+#: searchform.php:3
+msgid "Search the site"
+msgstr ""
+
+#: searchform.php:4 sidebar.php:6
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:12
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:20
+msgid "Meta"
+msgstr ""
+
+#: single.php:38
+msgid "Tags"
+msgstr ""
+
+#: single.php:47 theme-options.php:331
+msgid "Related Posts"
+msgstr ""
+
+#: single.php:73
+msgid "About The Author"
+msgstr ""
+
+#: theme-options.php:22
+msgid "A Section added by hook"
+msgstr ""
+
+#: theme-options.php:23
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array, great to allow child themes, to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: theme-options.php:93 theme-options.php:96
+msgid "Theme Options"
+msgstr ""
+
+#: theme-options.php:120
+msgid "Support"
+msgstr ""
+
+#: theme-options.php:121
+msgid ""
+"<p>If you are facing any problem with our theme or theme option panel, head "
+"over to our <a href=\"http://mythemeshop.com/support\">Knowledge Base</a></p>"
+msgstr ""
+
+#: theme-options.php:125
+msgid "Credit"
+msgstr ""
+
+#: theme-options.php:126
+msgid ""
+"<p>Options Panel created using the <a href=\"http://leemason.github.com/NHP-"
+"Theme-Options-Framework/\" target=\"_blank\">NHP Theme Options Framework</a> "
+"Version 1.0.5</p>"
+msgstr ""
+
+#: theme-options.php:130
+msgid "Earn Money"
+msgstr ""
+
+#: theme-options.php:131
+msgid ""
+"<p>Earn <strong>70%</strong> commision on every sale by refering your "
+"friends and readers. Join our <a href=\"http://mythemeshop.com/affiliate-"
+"program/\">Affiliate Program</a>.</p>"
+msgstr ""
+
+#: theme-options.php:143
+msgid "How To Get Support"
+msgstr ""
+
+#: theme-options.php:154
+msgid "General Settings"
+msgstr ""
+
+#: theme-options.php:155
+msgid ""
+"<p class=\"description\">This tab contains common setting options which will "
+"be applied to whole theme.</p>"
+msgstr ""
+
+#: theme-options.php:161
+msgid "Logo Image"
+msgstr ""
+
+#: theme-options.php:162
+msgid ""
+"Upload your logo <strong>(Recommended size 152x60px)</strong> using the "
+"Upload Button or insert image URL."
+msgstr ""
+
+#: theme-options.php:168
+msgid "Footer Logo Image"
+msgstr ""
+
+#: theme-options.php:169
+msgid ""
+"Upload your footer logo <strong>(Recommended size 152x43px)</strong> using "
+"the Upload Button or insert image URL."
+msgstr ""
+
+#: theme-options.php:175
+msgid "Favicon"
+msgstr ""
+
+#: theme-options.php:176
+msgid ""
+"Upload a <strong>16 x 16 px</strong> image that will represent your "
+"website's favicon. You can refer to this link for more information on how to "
+"make it: <a href=\"http://www.favicon.cc/\" target=\"blank\" rel=\"nofollow"
+"\">http://www.favicon.cc/</a>"
+msgstr ""
+
+#: theme-options.php:182
+msgid "Header Code"
+msgstr ""
+
+#: theme-options.php:183
+msgid ""
+"Enter the code which you need to place <strong>before closing </head> tag</"
+"strong>. (ex: Google Webmaster Tools verification, Bing Webmaster Center, "
+"BuySellAds Script, Alexa verification etc.)"
+msgstr ""
+
+#: theme-options.php:188
+msgid "Copyrights Text"
+msgstr ""
+
+#: theme-options.php:189
+#, php-format
+msgid ""
+"You can change or remove MyThemeShop link from footer and use your own "
+"custom text. <strong>Tip:</strong> You can use our affiliate link and earn "
+"60% commission on every sale."
+msgstr ""
+
+#: theme-options.php:195
+msgid "Trending"
+msgstr ""
+
+#: theme-options.php:196
+msgid ""
+"<strong>Enable or Disable</strong> a top trending section by using this "
+"check box. This slider will show 4 recent articles from the selected "
+"category."
+msgstr ""
+
+#: theme-options.php:202
+msgid "Trending Category"
+msgstr ""
+
+#: theme-options.php:203
+msgid ""
+"Select a category from the drop-down menu, latest four articles from this "
+"category will be shown in trending section."
+msgstr ""
+
+#: theme-options.php:210
+msgid "Homepage Featured Section"
+msgstr ""
+
+#: theme-options.php:211
+msgid ""
+"<strong>Enable or Disable</strong> a homepage featured section by using this "
+"check box. This section will show 4 recent articles from the selected "
+"category."
+msgstr ""
+
+#: theme-options.php:217
+msgid "Featured Category"
+msgstr ""
+
+#: theme-options.php:218
+msgid ""
+"Select a category from the menu, latest 4 articles from this category will "
+"be shown <strong>in featured section</strong>. Use ctrl key to select more "
+"than one category."
+msgstr ""
+
+#: theme-options.php:225
+msgid "Footer Featured"
+msgstr ""
+
+#: theme-options.php:226
+msgid ""
+"<strong>Enable or Disable</strong> a Footer Featured section by using this "
+"check box. This section will show 6 recent articles from the selected "
+"category."
+msgstr ""
+
+#: theme-options.php:232
+msgid "Carousel Category"
+msgstr ""
+
+#: theme-options.php:233
+msgid ""
+"Select a category from the menu, latest 6 articles from this category will "
+"be shown <strong>in footer featured section</strong>."
+msgstr ""
+
+#: theme-options.php:240
+msgid "Pagination"
+msgstr ""
+
+#: theme-options.php:241
+msgid ""
+"Enable or disable paginated navigation, which replaces the <strong>\"Older "
+"Posts\"</strong> and <strong>\"Newer Posts\"</strong> links with helpful "
+"numbered page links."
+msgstr ""
+
+#: theme-options.php:247
+msgid "Right To Left Language Support"
+msgstr ""
+
+#: theme-options.php:249
+msgid "Enable this option for right-to-left sites."
+msgstr ""
+
+#: theme-options.php:256
+msgid "Styling Options"
+msgstr ""
+
+#: theme-options.php:257
+msgid ""
+"<p class=\"description\">Control the visual appearance of your theme, such "
+"as colors, layout and patterns, from here.</p>"
+msgstr ""
+
+#: theme-options.php:262
+msgid "Primary Color Scheme"
+msgstr ""
+
+#: theme-options.php:263
+msgid "Theme comes with unlimited color schemes for your theme's styling."
+msgstr ""
+
+#: theme-options.php:269
+msgid "Layout"
+msgstr ""
+
+#: theme-options.php:270
+msgid ""
+"Choose from <strong>2 different homepage layouts</strong> for your site."
+msgstr ""
+
+#: theme-options.php:280
+msgid "Posts on blog pages"
+msgstr ""
+
+#: theme-options.php:282
+msgid ""
+"Show post excerpts or full posts on the homepage and other archive pages."
+msgstr ""
+
+#: theme-options.php:289
+msgid "Background Color"
+msgstr ""
+
+#: theme-options.php:290
+msgid ""
+"Pick any color using the <strong>color picker</strong>, or enter a hex color "
+"value in the input field to make it the site background color for your theme."
+msgstr ""
+
+#: theme-options.php:296
+msgid "Custom Background Image"
+msgstr ""
+
+#: theme-options.php:297
+msgid "Upload your own custom background image or pattern."
+msgstr ""
+
+#: theme-options.php:302
+msgid "Custom CSS"
+msgstr ""
+
+#: theme-options.php:303
+msgid ""
+"You can enter your own custom CSS here to further customize your theme. This "
+"will override the default CSS used on your site."
+msgstr ""
+
+#: theme-options.php:308
+msgid "Responsiveness"
+msgstr ""
+
+#: theme-options.php:310
+msgid ""
+"MyThemeShop themes are responsive, which means they adapt to tablet and "
+"mobile devices, ensuring that your content is always displayed beautifully "
+"no matter what device visitors are using. Enable or disable responsiveness "
+"using this option."
+msgstr ""
+
+#: theme-options.php:317
+msgid "Single Posts"
+msgstr ""
+
+#: theme-options.php:318
+msgid ""
+"<p class=\"description\">From here, you can control the appearance and "
+"functionality of your single posts page.</p>"
+msgstr ""
+
+#: theme-options.php:323
+msgid "Tag Links"
+msgstr ""
+
+#: theme-options.php:325
+msgid ""
+"Use this button if you want to show a tag cloud below the related posts."
+msgstr ""
+
+#: theme-options.php:333
+msgid ""
+"Use this button to show related posts with thumbnails below the content area "
+"in a post."
+msgstr ""
+
+#: theme-options.php:339
+msgid "Author Box"
+msgstr ""
+
+#: theme-options.php:341
+msgid ""
+"Use this button if you want to display author information below the article."
+msgstr ""
+
+#: theme-options.php:348
+msgid "Ad Management"
+msgstr ""
+
+#: theme-options.php:349
+msgid ""
+"<p class=\"description\">Now, ad management is easy with our options panel. "
+"You can control everything from here, without using separate plugins.</p>"
+msgstr ""
+
+#: theme-options.php:354
+msgid "Header Banner"
+msgstr ""
+
+#: theme-options.php:355
+msgid ""
+"Paste your Adsense, BSA or other ad code here to show ads below header on "
+"single posts."
+msgstr ""
+
+#: theme-options.php:360
+msgid "Below Header Right Side"
+msgstr ""
+
+#: theme-options.php:361
+msgid ""
+"Show call to action button to the right side of header Ad. (This button will "
+"be shown only if you are showing Header Ad.)"
+msgstr ""
+
+#: theme-options.php:367
+msgid "Below Post Title"
+msgstr ""
+
+#: theme-options.php:368
+msgid ""
+"Paste your Adsense, BSA or other ad code here to show ads below your article "
+"title on single posts."
+msgstr ""
+
+#: theme-options.php:373 theme-options.php:388
+msgid "Show After X Days"
+msgstr ""
+
+#: theme-options.php:374 theme-options.php:389
+msgid ""
+"Enter the number of days after which you want to show the Below Post Title "
+"Ad before it expires. Enter 0 to disable this feature."
+msgstr ""
+
+#: theme-options.php:382
+msgid "Below Post Content"
+msgstr ""
+
+#: theme-options.php:383
+msgid ""
+"Paste your Adsense, BSA or other ad code here to show ads below the post "
+"content on single posts."
+msgstr ""
+
+#: theme-options.php:398
+msgid "Navigation"
+msgstr ""
+
+#: theme-options.php:399
+msgid ""
+"<p class=\"description\"><div class=\"controls\"><b>Navigation settings can "
+"now be modified from the <a href=\"nav-menus.php\">Menus Section</a>.</"
+"b><br></div></p>"
+msgstr ""
+
+#: functions/plugin-activation.php:196 functions/plugin-activation.php:2264
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/plugin-activation.php:197 functions/plugin-activation.php:2265
+msgid "Install Plugins"
+msgstr ""
+
+#: functions/plugin-activation.php:198 functions/plugin-activation.php:2266
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions/plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+#: functions/plugin-activation.php:210 functions/plugin-activation.php:2278
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+#: functions/plugin-activation.php:212 functions/plugin-activation.php:1951
+#: functions/plugin-activation.php:2279
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions/plugin-activation.php:213
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: functions/plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions/plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions/plugin-activation.php:544 functions/plugin-activation.php:2168
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: functions/plugin-activation.php:1174
+msgid "Private Repository"
+msgstr ""
+
+#: functions/plugin-activation.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: functions/plugin-activation.php:1182
+msgid "WordPress Repository"
+msgstr ""
+
+#: functions/plugin-activation.php:1185
+msgid "Required"
+msgstr ""
+
+#: functions/plugin-activation.php:1185
+msgid "Recommended"
+msgstr ""
+
+#: functions/plugin-activation.php:1188
+msgid "Not Installed"
+msgstr ""
+
+#: functions/plugin-activation.php:1190
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: functions/plugin-activation.php:1290 functions/plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+#: functions/plugin-activation.php:1312 functions/plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+#: functions/plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: functions/plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+#: functions/plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+#: functions/plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+#: functions/plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+#: functions/plugin-activation.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: functions/plugin-activation.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: functions/plugin-activation.php:1934
+msgid "Install package not available."
+msgstr ""
+
+#: functions/plugin-activation.php:1935
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: functions/plugin-activation.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: functions/plugin-activation.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: functions/plugin-activation.php:1938
+msgid "Plugin install failed."
+msgstr ""
+
+#: functions/plugin-activation.php:1939
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: functions/plugin-activation.php:1950
+msgid "Plugin activation failed."
+msgstr ""
+
+#: functions/plugin-activation.php:2064
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: functions/plugin-activation.php:2065
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: functions/plugin-activation.php:2065 functions/plugin-activation.php:2074
+msgid "Show Details"
+msgstr ""
+
+#: functions/plugin-activation.php:2065 functions/plugin-activation.php:2074
+msgid "Hide Details"
+msgstr ""
+
+#: functions/plugin-activation.php:2066
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: functions/plugin-activation.php:2067
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/plugin-activation.php:2071
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: functions/plugin-activation.php:2072
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: functions/plugin-activation.php:2073
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: functions/plugin-activation.php:2074
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: functions/plugin-activation.php:2075
+msgid "All installations have been completed."
+msgstr ""
+
+#: functions/plugin-activation.php:2076
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/plugin-activation.php:2267
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions/plugin-activation.php:2280
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions/widget-ad125.php:33
+msgid "A widget for 125 x 125 ad unit (max 6 ads)"
+msgstr ""
+
+#: functions/widget-ad125.php:44
+msgid "MyThemeShop: 125x125 Ads"
+msgstr ""
+
+#: functions/widget-ad125.php:202 functions/widget-ad300.php:118
+#: functions/widget-ad728.php:118 functions/widget-social.php:135
+#: functions/widget-subscribe.php:116
+msgid "Title:"
+msgstr ""
+
+#: functions/widget-ad125.php:208
+msgid "Ad 1 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:214
+msgid "Ad 1 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:220
+msgid "Ad 2 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:226
+msgid "Ad 2 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:232
+msgid "Ad 3 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:238
+msgid "Ad 3 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:244
+msgid "Ad 4 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:250
+msgid "Ad 4 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:256
+msgid "Ad 5 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:262
+msgid "Ad 5 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:268
+msgid "Ad 6 image url:"
+msgstr ""
+
+#: functions/widget-ad125.php:274
+msgid "Ad 6 link url:"
+msgstr ""
+
+#: functions/widget-ad125.php:280
+msgid "Randomize ads order?"
+msgstr ""
+
+#: functions/widget-ad300.php:33
+msgid "A widget for 300 x 250 ad (Single banner)"
+msgstr ""
+
+#: functions/widget-ad300.php:44
+msgid "MyThemeShop: 300x250 Ad"
+msgstr ""
+
+#: functions/widget-ad300.php:124 functions/widget-ad728.php:124
+msgid "Ad image url:"
+msgstr ""
+
+#: functions/widget-ad300.php:130 functions/widget-ad728.php:130
+msgid "Ad link url:"
+msgstr ""
+
+#: functions/widget-ad728.php:33
+msgid "A widget for 728 x 90 ad (Single banner)"
+msgstr ""
+
+#: functions/widget-ad728.php:44
+msgid "MyThemeShop: 728x90 Ad"
+msgstr ""
+
+#: functions/widget-fblikebox.php:20
+msgid "Add Facebook Like Box."
+msgstr ""
+
+#: functions/widget-fblikebox.php:24
+msgid "MyThemeShop: FB Like Box"
+msgstr ""
+
+#: functions/widget-fblikebox.php:82
+msgid "Find us on Facebook"
+msgstr ""
+
+#: functions/widget-fblikebox.php:86
+msgid "Title"
+msgstr ""
+
+#: functions/widget-fblikebox.php:91
+msgid "Facebook Page URL"
+msgstr ""
+
+#: functions/widget-fblikebox.php:96
+msgid "Width"
+msgstr ""
+
+#: functions/widget-fblikebox.php:101
+msgid "Color Scheme"
+msgstr ""
+
+#: functions/widget-fblikebox.php:103
+msgid "light"
+msgstr ""
+
+#: functions/widget-fblikebox.php:104
+msgid "dark"
+msgstr ""
+
+#: functions/widget-fblikebox.php:110
+msgid "Show faces"
+msgstr ""
+
+#: functions/widget-fblikebox.php:115
+msgid "Show stream"
+msgstr ""
+
+#: functions/widget-fblikebox.php:120
+msgid "Show facebook header"
+msgstr ""
+
+#: functions/widget-social.php:51
+msgid "Dribbble URI"
+msgstr ""
+
+#: functions/widget-social.php:55
+msgid "Email URI"
+msgstr ""
+
+#: functions/widget-social.php:59
+msgid "Facebook URI"
+msgstr ""
+
+#: functions/widget-social.php:63
+msgid "Google+ URI"
+msgstr ""
+
+#: functions/widget-social.php:67
+msgid "Linkedin URI"
+msgstr ""
+
+#: functions/widget-social.php:71
+msgid "Pinterest URI"
+msgstr ""
+
+#: functions/widget-social.php:75
+msgid "RSS URI"
+msgstr ""
+
+#: functions/widget-social.php:79
+msgid "StumbleUpon URI"
+msgstr ""
+
+#: functions/widget-social.php:83
+msgid "Twitter URI"
+msgstr ""
+
+#: functions/widget-social.php:87
+msgid "YouTube URI"
+msgstr ""
+
+#: functions/widget-social.php:91
+msgid "Flickr URI"
+msgstr ""
+
+#: functions/widget-social.php:95
+msgid "Lastfm URI"
+msgstr ""
+
+#: functions/widget-social.php:99
+msgid "Tumblr URI"
+msgstr ""
+
+#: functions/widget-social.php:103
+msgid "Vimeo URI"
+msgstr ""
+
+#: functions/widget-social.php:110
+msgid "Show profile icons."
+msgstr ""
+
+#: functions/widget-social.php:119
+msgid "MyThemeShop: Social Profile Icons"
+msgstr ""
+
+#: functions/widget-subscribe.php:32
+msgid "Feedburner Subscription Widget."
+msgstr ""
+
+#: functions/widget-subscribe.php:38
+msgid "MyThemeShop: Subscribe Widget"
+msgstr ""
+
+#: functions/widget-subscribe.php:67
+msgid "Your email Address"
+msgstr ""
+
+#: functions/widget-subscribe.php:68
+msgid "Subscribe"
+msgstr ""
+
+#: functions/widget-subscribe.php:122
+msgid "Feedburner id (http://feeds.feedburner.com/<b>mythemeshop</b>):"
+msgstr ""
+
+#: options/options.php:46 options/options.php:48
+msgid "Options"
+msgstr ""
+
+#: options/options.php:594
+msgid "<strong>Settings Imported!</strong>"
+msgstr ""
+
+#: options/options.php:596
+msgid "<strong>Settings Saved!</strong>"
+msgstr ""
+
+#: options/options.php:600
+msgid "<strong>Settings have changed!, you should save them!</strong>"
+msgstr ""
+
+#: options/options.php:601
+msgid "<strong><span></span> error(s) were found!</strong>"
+msgstr ""
+
+#: options/options.php:603
+msgid "<strong><span></span> warning(s) were found!</strong>"
+msgstr ""
+
+#: options/options.php:624
+msgid "Import / Export"
+msgstr ""
+
+#: options/options.php:643 options/options.php:725
+msgid "Dev Mode Info"
+msgstr ""
+
+#: options/options.php:661
+msgid "Import / Export Options"
+msgstr ""
+
+#: options/options.php:663
+msgid "Import Options"
+msgstr ""
+
+#: options/options.php:671
+msgid ""
+"Input your backup code below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: options/options.php:684
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: options/options.php:694
+msgid "Import"
+msgstr ""
+
+#: options/options.php:694
+msgid ""
+"WARNING! Importing options will overwrite your existing options, please "
+"proceed with caution and consider exporting your current options as backups."
+msgstr ""
+
+#: options/options.php:697
+msgid "Export Options"
+msgstr ""
+
+#: options/options.php:699
+msgid ""
+"Here, you can export and download your current options settings.  Keep this "
+"safe, as you can use it for backup in case of an emergency.  You can also "
+"use this to restore settings on this site, or on any other site using this "
+"theme.  You can also copy the link to your settings, and duplicate it to "
+"another site, which is useful if you have a network of blogs that all need "
+"the same settings."
+msgstr ""
+
+#: options/options.php:752
+msgid "Reset to Defaults"
+msgstr ""
+
+#: options/options.php:753
+msgid "Save Changes"
+msgstr ""
+
+#: options/fields/color_gradient/field_color_gradient.php:35
+msgid "From:"
+msgstr ""
+
+#: options/fields/color_gradient/field_color_gradient.php:38
+msgid " To:"
+msgstr ""
+
+#: options/fields/multi_text/field_multi_text.php:39
+#: options/fields/multi_text/field_multi_text.php:46
+#: options/fields/multi_text/field_multi_text.php:50
+msgid "Remove"
+msgstr ""
+
+#: options/fields/multi_text/field_multi_text.php:54
+msgid "Add More"
+msgstr ""
+
+#: options/fields/upload/field_upload.php:39
+msgid "Browse"
+msgstr ""
+
+#: options/fields/upload/field_upload.php:40
+msgid "Remove Upload"
+msgstr ""
+
+#: options/validation/color/validation_color.php:15
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: options/validation/comma_numeric/validation_comma_numeric.php:15
+msgid ""
+"You must provide a comma seperated list of numerical values for this option."
+msgstr ""
+
+#: options/validation/date/validation_date.php:15
+msgid "This field must be a valid date."
+msgstr ""
+
+#: options/validation/email/validation_email.php:15
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: options/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: options/validation/no_special_chars/validation_no_special_chars.php:15
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: options/validation/numeric/validation_numeric.php:15
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: options/validation/url/validation_url.php:15
+msgid "You must provide a valid URL for this option."
+msgstr ""

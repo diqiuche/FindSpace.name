@@ -1,0 +1,65 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>嵌入Google搜索引擎</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <center>
+            <form method="get" action="http://www.google.com.hk/serach">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" style="background-color: #FFFFFF">
+                <tr>
+                    <td>
+                        <a href="http://www.google.com/intl/zh-CN/">
+                            <img src="http://www.google.com/logos/Logo_40wht.gif" style="border: 0" alt="Google"
+                                align="middle" />
+                        </a>
+                    </td>
+                    <td>
+                        <input type="text" name="q" size="31" maxlength="255" value="" />
+                        <!-- INPUT type=hidden 元素不会显示在文档里，所以用户也无法操作该元素。
+                        该元素通常用来传输一些客户端到服务器的状态信息。虽然此元素不会显示出来，
+                        但是用户可以通过查看 HTML 的源代码看到该元素属性的值，所以请注意，
+                        不要用该元素传递敏感信息，比如密码什么的。
+ -->
+                        <input type="hidden" name="ie" value="utf-8" />
+                        <input type="hidden" name="oe" value="GB2312" />
+                        <input type="hidden" name="hl" value="zh-CN" />
+                        <input type="submit" name="btnG" value="Google 搜索" />
+                        <font size="-1"><!-- 实现站内搜索，将Your Domain Name换成你的网站域名-->
+                            <input type="hidden" name="domains" value="www.findspace.name" /><br />
+                            <input type="radio" name="sitesearch" value="" />
+                            搜索 WWW
+                            <input type="radio" name="sitesearch" value="www.findspace.name" checked="checked" />
+                            搜索 Your Domain Name</font>
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </center>
+    </div>
+    <br />
+    <br />
+    <div>
+        <center>
+            <form action="http://www.baidu.com/baidu" target="_blank">
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" style="background-color: #FFFFFF">
+                <tr>
+                    <td>
+                        <input type="hidden" name="tn" value="baidu" />
+                        <a href="http://www.baidu.com/">
+                            <img src="http://img.baidu.com/img/logo-80px.gif" style="border: 0" alt="Baidu" align="bottom" />
+                        </a>
+                        <input type="text" name="word" size="31" />
+                        <input type="submit" name="btnG" value="百度搜索" />
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </center>
+    </div>
+    </form>
+</body>
+</html>

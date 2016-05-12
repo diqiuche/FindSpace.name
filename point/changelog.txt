@@ -1,0 +1,54 @@
+v1.2.4 (Jun 20th, 2015)
+-----------------------------
+- Fixed minor CSS issue
+
+
+v1.2.3 (Jan 28th, 2015)
+-----------------------------
+- Added support for WP Mega Menu Plugin
+- Optimized Images for speed improvements
+- Added WP Subscribe plugin in recommended plugin list
+- Optimized CSS
+- Added missing text in translation file
+
+
+v1.2.2 (Oct 15th, 2014)
+-----------------------------
+- Removed default Logos and Favicon
+
+
+v1.2.1 (Oct 6th, 2014)
+-----------------------------
+- Fixed walker function notification
+
+
+v1.2 (Oct 2nd, 2014)
+-----------------------------
+- Updated Options Panel
+- Fixed 404 error image calls in style.css
+- Optimized images present in theme
+
+
+v1.1 (June 28th, 2014)
+-----------------------------
+- Added Right to Left(RTL) Language Support
+- Added New Improved Options Panel
+- Theme is now compatible with Child themes
+- Removed Google Plus Badge Widget
+- Removed Tab Widget
+- Added Option to show full posts on homepage
+- Added Support for WP Review Plugin to show average review value on homepage
+- Added WP Tab Widget Plugin
+- Added WP Shortcode Plugin
+- Added Google Plus Badge Widget Plugin
+- Optimized Theme Images(56% size reduction!)
+- Removed modernizr Script
+- Replaced Superfish script with lightweight code
+- Removed Unused jQuery Code
+- Optimized Code
+- Fixed other small bugs
+
+
+v1.0
+-----------------------------
+- Theme Released

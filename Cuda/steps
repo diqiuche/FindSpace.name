@@ -1,0 +1,62 @@
+#1.set sourcelist
+
+sudo gedit /etc/apt/sources.list
+
+add belows:
+deb http://mirrors.ustc.edu.cn/ubuntu/ precise main restricted universe multiverse 
+deb http://mirrors.ustc.edu.cn/ubuntu/ precise-backports restricted universe multiverse 
+deb http://mirrors.ustc.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse 
+deb http://mirrors.ustc.edu.cn/ubuntu/ precise-security main restricted universe multiverse 
+deb http://mirrors.ustc.edu.cn/ubuntu/ precise-updates main restricted universe multiverse 
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise main restricted universe multiverse 
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise-backports main restricted universe multiverse 
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise-proposed main restricted universe multiverse 
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise-security main restricted universe multiverse 
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ precise-updates main restricted universe multiverse
+
+and run below command to update 
+
+sudo apt-get update
+
+
+#2.1 install dependencies
+
+sudo apt-get install freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libgl1-mesa-glx libglu1-mesa libglu1-mesa-dev  
+
+sudo apt-get install python-dev scons m4 build-essential g++ swig zlib1g-dev libprotobuf-dev mercurial libgoogle-perftools-dev
+
+#2.2 install cuda toolkit and gpucomputingsdk
+
+chmod a+x *.run
+sudo ./cudatoolkit.run
+sudo ./gpucomputingsdk.run
+
+after that:
+gedit ~/.bashrc
+
+add belows:
+
+export CUDA_INSTALL_PATH=/usr/local/cuda
+export PATH=$PATH:$CUDA_INSTALL_PATH/bin
+export LD_LIBRARY_PATH=/usr/local/lib
+export LD_LIBRARY_PATH=$CUDA_INSTALL_PATH/lib64:$LD_LIBRARY_PATH:$CUDA_INSTALL_PATH/lib
+export NVIDIA_COMPUTE_SDK_LOCATION=/home/find/NVIDIA_GPU_Computing_SDK/
+export CUDAHOME=/usr/local/cuda
+export NVIDIA_CUDA_SDK_LOCATION=/home/find/NVIDIA_GPU_Computing_SDK/C
+
+
+#find adds above
+
+#2.4 at the same time,do as gem5-gpu manual
+https://gem5-gpu.cs.wisc.edu/wiki/start
+
+##2.4.1 set before
+vi ~/.hgrc
+
+[extensions]
+mq=
+[ui]
+username=Find Hao<find@findspace.name>
+
+
+
