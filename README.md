@@ -25,7 +25,7 @@
 
 
 |支付宝捐赠，二维码扫描|微信捐赠，二维码扫描|
-|-|-| 
+|-----------------|---------------| 
 |![][1]|![][3]|
 
 [1]: http://www.findspace.name/wp-content/uploads/2015/06/alipayDonate.jpg
