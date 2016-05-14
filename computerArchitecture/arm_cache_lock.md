@@ -65,9 +65,11 @@ If you require a deterministic replacement strategy, the lockdown registers are 
 There are two lockdown registers, one for data and one for instructions, if so required, you can separate data and instructions into separate ways of the L2 cache.
 
 cache控制器使用伪随机的替换策略。你也可以结合它利用lockdown的寄存器来实现一个确定的替换策略。
-伪随机替换策略首先填充空的、未锁定的cache line。如果line满了，~~下一个未锁定的line将被用来替换。~~（这里不确定）
+伪随机替换策略首先填充空的、未锁定的cache line。举例，要填充100KB的内容，如果一个line满了，则下一个未锁定的line将被用来填充。
 如果你需要一个严格确定的替换策略，lockdown寄存器被用来阻止cache line被分配内容。举个例子，256KB的L2，每个line是32KB，一段程序要求填充64KB的数据（两个line），对于一个严格确定的替换策略，在内容填充到L2cache 之前，line 1-7必须被锁定。如果前32KB的内容只被填充到了line0，则line 0必须被锁，而且line1必须解锁，以便剩下的32KB填充到line1里。
 这里有两个lockdown寄存器，一个是data的一个是instructions的，你可以分别使用他们。
+
+官网这段里实际上说的是填充策略，并没有说明，如果某个set全部被锁定了，怎么处理。
 
 # Dcache锁和Icache锁的区别
 两者类似。

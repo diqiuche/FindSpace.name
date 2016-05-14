@@ -22,7 +22,6 @@ if __name__ == "__main__":
 
 def test():
     url = "http://localhost:" + port_number
-    print(url + " is opened in browser")
 
 
 test()
